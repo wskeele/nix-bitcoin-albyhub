@@ -24,7 +24,7 @@
       packages = allSystems
         ({ pkgs, system }: rec {
           albyhub = mkAlbyhub pkgs;
-          default = default;
+          default = albyhub;
         });
     };
 }
